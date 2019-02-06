@@ -19,7 +19,7 @@ k_list = range(1,101)
 
 #plot accuracies for different k coefficients
 plt.plot(k_list, accuracies)
-plt.xlabel("K Coefficient")
-plt.ylabel("Accuracy")
-plt.title("Accuracy for different K Coefficients")
+plt.xlabel("k")
+plt.ylabel("Validation Accuracy")
+plt.title("Breast Cancer Classifier Accuracy")
 plt.show()
